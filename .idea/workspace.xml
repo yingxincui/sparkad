@@ -7,9 +7,11 @@
     <list default="true" id="672eac54-3e2d-42cc-a5cb-309fc9941bf4" name="Default Changelist" comment="moudle">
       <change afterPath="$PROJECT_DIR$/../.idea/codeStyles/Project.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/modules/git.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Project archive/BookDemo/.idea/misc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Project archive/BookDemo/BookDemo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project archive/BookDemo/out/production/BookDemo/sl/.idea/sl.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Project archive/BookDemo/out/production/BookDemo/sl/10/10.01/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Project archive/BookDemo/out/production/BookDemo/sl/10/10.03/.classpath" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Project archive/BookDemo/out/production/BookDemo/sl/10/10.04/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
@@ -113,6 +115,7 @@
       <change afterPath="$PROJECT_DIR$/../Project archive/BookDemo/out/production/BookDemo/sl/19/19.06/.classpath" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Project archive/BookDemo/out/production/BookDemo/sl/19/19.06/.project" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Project archive/BookDemo/out/production/BookDemo/sl/19/19.07/.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project archive/BookDemo/out/production/BookDemo/sl/2/.idea/2.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Project archive/BookDemo/out/production/BookDemo/sl/2/.idea/workspace.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Project archive/BookDemo/out/production/BookDemo/sl/2/HelloJava/.project" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Project archive/BookDemo/out/production/BookDemo/sl/2/HelloJava/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
@@ -215,11 +218,14 @@
       <change afterPath="$PROJECT_DIR$/../Project archive/BookDemo/out/production/BookDemo/sl/27/企业进销存管理系统/src/res/icon/shangpin_chaxun.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Project archive/BookDemo/out/production/BookDemo/sl/27/企业进销存管理系统/src/res/login.jpg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Project archive/BookDemo/out/production/BookDemo/sl/27/企业进销存管理系统/src/res/splash.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project archive/BookDemo/out/production/BookDemo/sl/3/.idea/3.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Project archive/BookDemo/out/production/BookDemo/sl/3/3.02/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Project archive/BookDemo/out/production/BookDemo/sl/3/3.04/.classpath" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Project archive/BookDemo/out/production/BookDemo/sl/3/3.04/.idea/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Project archive/BookDemo/out/production/BookDemo/sl/3/3.04/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project archive/BookDemo/out/production/BookDemo/sl/3/3.04/3.04.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Project archive/BookDemo/out/production/BookDemo/sl/3/3.06/.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project archive/BookDemo/out/production/BookDemo/sl/3/3.06/3.06.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Project archive/BookDemo/out/production/BookDemo/sl/3/3.07/.classpath" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Project archive/BookDemo/out/production/BookDemo/sl/3/3.07/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Project archive/BookDemo/out/production/BookDemo/sl/3/3.08/.classpath" afterDir="false" />
@@ -301,6 +307,7 @@
       <change afterPath="$PROJECT_DIR$/../Project archive/BookDemo/out/production/BookDemo/sl/9/9.14/.project" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Project archive/BookDemo/src/sl/.idea/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Project archive/BookDemo/src/sl/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project archive/BookDemo/src/sl/.idea/sl.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Project archive/BookDemo/src/sl/10/10.01/bin/Test.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Project archive/BookDemo/src/sl/10/10.02/.classpath" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Project archive/BookDemo/src/sl/10/10.02/bin/Parent.class" afterDir="false" />
@@ -491,6 +498,7 @@
       <change afterPath="$PROJECT_DIR$/../Project archive/BookDemo/src/sl/19/19.07/bin/TCPClient$SendMsg.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Project archive/BookDemo/src/sl/19/19.07/bin/TCPServer.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Project archive/BookDemo/src/sl/19/19.07/src/TCPClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project archive/BookDemo/src/sl/2/.idea/2.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Project archive/BookDemo/src/sl/2/.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Project archive/BookDemo/src/sl/2/2.01/src/JavaBook.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Project archive/BookDemo/src/sl/2/2.02/.classpath" afterDir="false" />
@@ -715,10 +723,12 @@
       <change afterPath="$PROJECT_DIR$/../Project archive/BookDemo/src/sl/3/3.01/bin/Number/Frist.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Project archive/BookDemo/src/sl/3/3.03/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Project archive/BookDemo/src/sl/3/3.04/.classpath" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project archive/BookDemo/src/sl/3/3.04/3.04.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Project archive/BookDemo/src/sl/3/3.04/src/Part.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Project archive/BookDemo/src/sl/3/3.05/.classpath" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Project archive/BookDemo/src/sl/3/3.05/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Project archive/BookDemo/src/sl/3/3.06/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project archive/BookDemo/src/sl/3/3.06/3.06.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Project archive/BookDemo/src/sl/3/3.08/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Project archive/BookDemo/src/sl/3/3.11/src/Conver.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Project archive/BookDemo/src/sl/3/3.12/.classpath" afterDir="false" />
@@ -861,10 +871,12 @@
       <change afterPath="$PROJECT_DIR$/../Project archive/MapreduceDemo/target/maven-archiver/pom.properties" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Project archive/MapreduceDemo/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Project archive/Mavendemo/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project archive/Mavendemo/maven_demo.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Project archive/Mavendemo/src/main/java/Demo.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Project archive/Mavendemo/src/test/java/org/example/AppTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Project archive/Mavendemo/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Project archive/SZ_2003 hdfs/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project archive/SZ_2003 hdfs/SZ_2003 hdfs.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Project archive/SZ_2003 hdfs/lib/activation-1.1.jar" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Project archive/SZ_2003 hdfs/lib/apacheds-i18n-2.0.0-M15.jar" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Project archive/SZ_2003 hdfs/lib/avro-1.7.4.jar" afterDir="false" />
@@ -911,6 +923,7 @@
       <change afterPath="$PROJECT_DIR$/../Project archive/SZ_2003 hdfs/src/Demo2.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Project archive/Stream Demo/.idea/misc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Project archive/Stream Demo/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project archive/Stream Demo/Stream Demo.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Project archive/Stream Demo/demo1.jpg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Project archive/Stream Demo/out/production/Stream Demo/BufferedMan.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Project archive/Stream Demo/out/production/Stream Demo/Demo3.class" afterDir="false" />
@@ -923,6 +936,7 @@
       <change afterPath="$PROJECT_DIR$/../Project archive/reflectDemo/out/production/reflectDemo/Demo3.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Project archive/reflectDemo/out/production/reflectDemo/Demo4.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Project archive/reflectDemo/out/production/reflectDemo/Person.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project archive/reflectDemo/reflectDemo.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Project archive/reflectDemo/src/Demo3.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Project archive/reflectDemo/src/Demo4.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../SZjava" afterDir="false" />
@@ -986,6 +1000,8 @@
       <change afterPath="$PROJECT_DIR$/../WebProject/.settings/org.eclipse.wst.common.project.facet.core.prefs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../WebProject/.settings/org.eclipse.wst.jsdt.ui.superType.container" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../WebProject/.settings/org.eclipse.wst.jsdt.ui.superType.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WebProject/WebProject.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WebProject/gciantispider_web.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../WebProject/hibernate.reveng.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../WebProject/src/main/java/cn/qf/b2c/gciantispider/bean/UserForm.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../WebProject/src/main/java/cn/qf/b2c/gciantispider/controller/BaseController.java" afterDir="false" />
@@ -1277,6 +1293,7 @@
       <change afterPath="$PROJECT_DIR$/../WebProject/target/classes/spring-druid.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../flink-local-train-master (1)/.idea/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../flink-local-train-master (1)/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flink-local-train-master (1)/.idea/flink-local-train-master (1).iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../flink-local-train-master (1)/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../flink-local-train-master (1)/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_5.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../flink-local-train-master (1)/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_yaml_2_8_10.xml" afterDir="false" />
@@ -1381,11 +1398,27 @@
       <change afterPath="$PROJECT_DIR$/../flink-local-train-master (1)/flink-local-train-master/target/classes/pic/1-选择排序.docx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../flink-local-train-master (1)/flink-local-train-master/target/classes/pic/20200103173407235.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../flink-local-train-master (1)/flink-local-train-master/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flinkAD/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flinkAD/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flinkAD/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flinkAD/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flinkAD/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flinkAD/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flinkAD/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flinkAD/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flinkAD/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flinkAD/data/textLog.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flinkAD/flinkAD.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flinkAD/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flinkAD/src/main/scala/com/hm/bd/Log2Parquet.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flinkAD/src/main/scala/com/hm/bd/formatType.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flinkAD/src/main/scala/com/hm/util/FlinkHelper.scala" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../flume/.idea/flume.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../flume/flume" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../flume/flume.rar" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../java Project archive/.idea/.name" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../java Project archive/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java Project archive/BD2003heminjiekaoshi/BD2003heminjie.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../java Project archive/BD2003heminjiekaoshi/test/.idea/encodings.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../java Project archive/BD2003heminjiekaoshi/test/.idea/libraries/c3p0_0_9_1_2.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../java Project archive/BD2003heminjiekaoshi/test/BD2003heminjie.iml" afterDir="false" />
@@ -1394,10 +1427,12 @@
       <change afterPath="$PROJECT_DIR$/../java Project archive/BD2003heminjiekaoshi/test/src/com/qf/mybin/mysql-connector-java-5.0.8-bin.jar" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../java Project archive/DButils Demo/.idea/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../java Project archive/DButils Demo/.idea/libraries/c3p0_0_9_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java Project archive/DButils Demo/DButils Demo.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../java Project archive/DButils Demo/mybin/mysql-connector-java-5.0.8-bin.jar" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../java Project archive/DButils Demo/out/production/DButils Demo/Demo.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../java Project archive/bigdata2003jdbcdemo/bigdata/.idea/libraries/commons_dbutils_1_4.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../java Project archive/bigdata2003jdbcdemo/bigdata/.idea/libraries/mysql_connector_java_5_0_8_bin.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java Project archive/bigdata2003jdbcdemo/bigdata/bigdata2003DButilsDemo.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../java Project archive/bigdata2003jdbcdemo/bigdata/mybin/commons-dbutils-1.4.jar" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../java Project archive/bigdata2003jdbcdemo/bigdata/mybin/mysql-connector-java-5.0.8-bin.jar" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../java Project archive/bigdata2003jdbcdemo/bigdata/src/com/qf/test/Demo1.java" afterDir="false" />
@@ -1429,6 +1464,7 @@
       <change afterPath="$PROJECT_DIR$/../java Project archive/sz2003_mapreduce/sz2003_mapreduce/.idea/compiler.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../java Project archive/sz2003_mapreduce/sz2003_mapreduce/.idea/jarRepositories.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../java Project archive/sz2003_mapreduce/sz2003_mapreduce/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java Project archive/sz2003_mapreduce/sz2003_mapreduce/.idea/sz2003_mapreduce.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../java Project archive/sz2003_mapreduce/sz2003_mapreduce/.idea/uiDesigner.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../java Project archive/sz2003_mapreduce/sz2003_mapreduce/src/main/java/com/qf/mr/movie/MovieDriver.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../java Project archive/sz2003_mapreduce/sz2003_mapreduce/src/main/java/com/qf/mr/movie1/MovieMergeDriver.java" afterDir="false" />
@@ -1436,6 +1472,7 @@
       <change afterPath="$PROJECT_DIR$/../java Project archive/sz2003_mapreduce/sz2003_mapreduce/src/main/java/com/qf/mr/wordcount/runmode/localFromHdfs/WordCountReducer.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../java Project archive/sz2003_mapreduce/sz2003_mapreduce/src/main/java/com/qf/mr/wordcount/version1/WordCountMapper.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../java Project archive/sz2003_mapreduce/sz2003_mapreduce/src/main/resources/yarn-site.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java Project archive/sz2003_mapreduce/sz2003_mapreduce/sz2003_mapreduce.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../java Project archive/sz2003_mapreduce/sz2003_mapreduce/target/classes/com/qf/mr/emp1/EmpDriver.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../java Project archive/sz2003_mapreduce/sz2003_mapreduce/target/classes/com/qf/mr/emp1/EmpPartitioner.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../java Project archive/sz2003_mapreduce/sz2003_mapreduce/target/classes/com/qf/mr/movie1/RateBean.class" afterDir="false" />
@@ -1450,17 +1487,13 @@
       <change afterPath="$PROJECT_DIR$/../java Project archive/sz2003_mapreduce/sz2003_mapreduce/target/classes/com/qf/mr/wordcount/runmode/localFromHdfs/WordCountReducer.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../java Project archive/sz2003_mapreduce/v.txt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../sbtdemo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/计算逻辑.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/项目需求..md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/hm/bd/DIstrict.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/hm/bd/Log2Parquet.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/hm/bd/ProCityCount.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/hm/util/SparkHelper.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/hm/util/formatType.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/hm/bd/Device.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/hm/util/LoggerKIiller.scala" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../sqoop/sqoop" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../yingxincui.github.io" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/textLog.log" beforeDir="false" afterPath="$PROJECT_DIR$/data/textLog.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/hm/bd/DIstrict.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/hm/bd/DIstrict.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hm/bd/DIstrict$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hm/bd/DIstrict$.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -1474,6 +1507,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Scala Object" />
+        <option value="Package Object" />
       </list>
     </option>
   </component>
@@ -1496,6 +1530,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
   </component>
   <component name="RecentsManager">
@@ -1505,10 +1540,26 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\git\sparkad\data" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.hm.bd" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.DIstrict">
+  <component name="RunManager" selected="Application.Device">
     <configuration name="DIstrict" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.hm.bd.DIstrict" />
+      <module name="sparkad" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hm.bd.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Device" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.hm.bd.Device" />
       <module name="sparkad" />
       <extension name="coverage">
         <pattern>
@@ -1548,6 +1599,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Device" />
         <item itemvalue="Application.DIstrict" />
         <item itemvalue="Application.ProCityCount" />
         <item itemvalue="Application.Log2Parquet" />
