@@ -132,6 +132,5 @@ object TagsAd {
         })
       }
     }
-
   }
 }

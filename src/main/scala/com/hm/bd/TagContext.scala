@@ -2,13 +2,11 @@ package com.hm.bd
 
 import com.hm.util.{JedisConn, LoggerKIiller, SparkHelper}
 import org.apache.hadoop.conf.Configuration
-import org.apache.hadoop.hbase.{HColumnDescriptor, HTableDescriptor, TableName}
-import org.apache.hadoop.hbase.client.{Admin, Connection, ConnectionFactory, Put}
+import org.apache.hadoop.hbase.client.Put
 import org.apache.hadoop.hbase.io.ImmutableBytesWritable
 import org.apache.hadoop.hbase.mapred.TableOutputFormat
 import org.apache.hadoop.mapred.JobConf
-import org.apache.spark.rdd.RDD
-import org.apache.spark.sql.{DataFrame, Dataset, Row, SparkSession}
+import org.apache.spark.sql.{DataFrame, Row, SparkSession}
 import redis.clients.jedis.Jedis
 
 object TagContext {
@@ -16,7 +14,6 @@ object TagContext {
 
   def main(args: Array[String]): Unit = {
     val spark: SparkSession = SparkHelper.getSparkSession
-    import spark.implicits._
     val config: Configuration = HbaseUtil.getHbase(spark: SparkSession)
     val jobConf = new JobConf(config)
     // 设置写入Hbase表的属性
