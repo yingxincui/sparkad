@@ -1487,33 +1487,13 @@
       <change afterPath="$PROJECT_DIR$/../java Project archive/sz2003_mapreduce/sz2003_mapreduce/target/classes/com/qf/mr/wordcount/runmode/localFromHdfs/WordCountReducer.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../java Project archive/sz2003_mapreduce/v.txt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../sbtdemo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/scala_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/hm/bd/TagContext.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/hm/bd/TagUtil.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/hm/bd/TagsAd.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/hm/util/MapUtil.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Test.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Test1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Test2.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/getDemo.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/hm/bd/Device$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/hm/bd/Device.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/hm/bd/TagContext$$anonfun$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/hm/bd/TagContext$$anonfun$main$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/hm/bd/TagContext$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/hm/bd/TagContext.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/hm/bd/TagUtil$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/hm/bd/TagUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/hm/bd/TagsAd$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/hm/bd/TagsAd.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/hm/util/LoggerKIiller$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/hm/util/LoggerKIiller.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../sqoop/sqoop" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../yingxincui.github.io" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/hm/bd/DIstrict.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/hm/bd/DIstrict.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hm/bd/DIstrict$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hm/bd/DIstrict$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/hm/bd/TagsAd.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/hm/bd/TagsAd.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/hm/util/MapUtil.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/hm/util/MapUtil.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Test1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/getDemo.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/getDemo.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -1535,7 +1515,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="dev" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />

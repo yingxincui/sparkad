@@ -1,9 +1,7 @@
-import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONObject;
 
-import java.util.List;
-
+//测试利用fastjson解析json字符串
 public class Test1 {
     public static void main(String[] args) {
         //Test1.testJson1();

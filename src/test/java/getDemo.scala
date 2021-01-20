@@ -1,7 +1,7 @@
 import org.apache.http.client.methods.{CloseableHttpResponse, HttpGet}
 import org.apache.http.impl.client.{CloseableHttpClient, HttpClients}
 import org.apache.http.util.EntityUtils
-
+//测试http get方法的应用
 object getDemo extends App {
   val url = "https://git-scm.com/docs/git-stage"
   //使用默认配置创建CloseableHttpClient实例。
