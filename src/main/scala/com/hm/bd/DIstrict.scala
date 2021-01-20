@@ -26,7 +26,6 @@ object DIstrict {
         |sum(if(iseffective=1 and isbilling=1 and isbid=1,1,0)) as `广告成本`,
         |sum(if(iseffective=1 and isbilling=1 and isbid=1,1,0)) as `广告消费`
         |from tmp
-        |where
         |group by provincename,cityname
         |""".stripMargin
     spark.sql(sql).show()
