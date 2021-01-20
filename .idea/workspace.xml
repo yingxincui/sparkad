@@ -1487,27 +1487,31 @@
       <change afterPath="$PROJECT_DIR$/../java Project archive/sz2003_mapreduce/sz2003_mapreduce/target/classes/com/qf/mr/wordcount/runmode/localFromHdfs/WordCountReducer.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../java Project archive/sz2003_mapreduce/v.txt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../sbtdemo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/hm/util/JedisConn.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/GeoTest.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TupleDemo.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/getBusiness.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/hm/bd/HbaseUtil.scala" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../sqoop/sqoop" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../yingxincui.github.io" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/com/hm/bd/TagContext.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/hm/bd/TagContext.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/com/hm/bd/TagsAd.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/hm/bd/TagsAd.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/com/hm/util/MapUtil.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/hm/util/MapUtil.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Test1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Test2.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Test2.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hm/bd/TagContext$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hm/bd/TagContext$$anonfun$2$$anonfun$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hm/bd/TagContext$$anonfun$2$$anonfun$4$$anonfun$apply$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hm/bd/TagContext$$anonfun$2$$anonfun$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hm/bd/TagContext$$anonfun$2.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/hm/bd/TagContext$$anonfun$main$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hm/bd/TagContext$$anonfun$main$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/hm/bd/TagContext$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hm/bd/TagContext$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hm/bd/TagsAd$$anonfun$makeTags$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hm/bd/TagsAd$$anonfun$makeTags$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hm/bd/TagsAd$$anonfun$makeTags$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hm/bd/TagsAd$$anonfun$makeTags$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hm/bd/TagsAd$$anonfun$makeTags$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hm/bd/TagsAd$$anonfun$makeTags$6.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/hm/bd/TagsAd$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hm/bd/TagsAd$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hm/bd/TagsAd.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hm/bd/TagsAd.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hm/util/MapUtil$$anonfun$getBusinessFromMap$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hm/util/MapUtil$$anonfun$getBusinessFromMap$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/hm/util/MapUtil$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hm/util/MapUtil$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Test$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Test1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Test1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Test2$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Test2$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Test2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Test2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TupleDemo$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TupleDemo$.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -1566,7 +1570,7 @@
       <recent name="com.hm.bd" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TupleDemo">
+  <component name="RunManager" selected="Application.TagContext">
     <configuration name="GeoTest" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="GeoTest" />
       <module name="sparkad" />
@@ -1574,12 +1578,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProCityCount" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.hm.bd.ProCityCount" />
+    <configuration name="TagContext" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.hm.bd.TagContext" />
       <module name="sparkad" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hm.util.*" />
+          <option name="PATTERN" value="com.hm.bd.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -1610,11 +1614,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TagContext" />
         <item itemvalue="Application.TupleDemo" />
         <item itemvalue="Application.GeoTest" />
         <item itemvalue="Application.getBusiness" />
         <item itemvalue="Application.Test2" />
-        <item itemvalue="Application.ProCityCount" />
       </list>
     </recent_temporary>
   </component>

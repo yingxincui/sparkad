@@ -1,62 +1,57 @@
 package com.hm.bd
 
-import com.hm.util.{LoggerKIiller, SparkHelper}
+import com.hm.util.{JedisConn, LoggerKIiller, SparkHelper}
 import org.apache.hadoop.conf.Configuration
 import org.apache.hadoop.hbase.{HColumnDescriptor, HTableDescriptor, TableName}
 import org.apache.hadoop.hbase.client.{Admin, Connection, ConnectionFactory, Put}
 import org.apache.hadoop.hbase.io.ImmutableBytesWritable
+import org.apache.hadoop.hbase.mapred.TableOutputFormat
 import org.apache.hadoop.mapred.JobConf
 import org.apache.spark.rdd.RDD
-import org.apache.spark.sql.{DataFrame, Row, SparkSession}
+import org.apache.spark.sql.{DataFrame, Dataset, Row, SparkSession}
+import redis.clients.jedis.Jedis
 
 object TagContext {
   LoggerKIiller.killer()
 
   def main(args: Array[String]): Unit = {
     val spark: SparkSession = SparkHelper.getSparkSession
-
-    val config: Configuration = Hbase(spark)
-
-    val jobconf = new JobConf(config)
-    jobconf.setOutputFormat()
-
-
-
-    val df: DataFrame = spark.read.load(("output/rs"))
-    //获取标签字段
-    val value: RDD[(String, Seq[(String, Int)])] = df.rdd.map((row: Row) => {
-      val userId: String = TagUtil.getUserID(row)
-      //广告位类型标签
-      val adList: Seq[(String, Int)] = TagsAd.makeTags(row)
-      (userId, adList)
-    }).reduceByKey((list1: Seq[(String, Int)], list2: Seq[(String, Int)]) => {
-      val tuples: Seq[(String, Int)] = list1 ++ list2
-      val grouped: Map[String, Seq[(String, Int)]] = tuples.groupBy(_._1)
-      val map: Map[String, Int] = grouped.mapValues((t: Seq[(String, Int)]) => t.map(_._2).sum)
-      map.toList
-
-    })
-    value.map((t: (String, Seq[(String, Int)])) =>{
+    import spark.implicits._
+    val config: Configuration = HbaseUtil.getHbase(spark: SparkSession)
+    val jobConf = new JobConf(config)
+    // 设置写入Hbase表的属性
+    jobConf.setOutputFormat(classOf[TableOutputFormat])
+    // 写入那张表
+    jobConf.set(TableOutputFormat.OUTPUT_TABLE, "tags203")
+    // 读取数据
+    val df: DataFrame = spark.read.load("output/rs")
+    //获取用户id和标签组合的集合
+    df.rdd.mapPartitions((t: Iterator[Row]) => {
+      val jedis: Jedis = JedisConn.getJedis
+      t.map((row: Row) => {
+        //获取UserID
+        val userId: String = TagUtil.getUserID(row)
+        //获取标签数据
+        val adList: Seq[(String, Int)] = TagsAd.makeTags(jedis, row)
+        //返回userid,和用户标签集合的list
+        (userId, adList.toList)
+      })
+    }).reduceByKey((list1: List[(String, Int)], list2: List[(String, Int)]) => {
+      val list: List[(String, Int)] = list1 ++ list2
+      //相同userid的进行分组
+      val grouped: Map[String, List[(String, Int)]] = list.groupBy(_._1)
+      //相同userid相同key的进行
+      grouped.mapValues((t: List[(String, Int)]) => t.map(_._2).sum).toList
+    }).map((t: (String, List[(String, Int)])) => {
+      //设置rowkey
       val rowkey = new Put(t._1.getBytes())
       val tags: String = t._2.mkString(",")
-      val put: Put = rowkey.addImmutable("tags".getBytes(), "20210120".getBytes(), tags.getBytes())
-      (new ImmutableBytesWritable(),put)
-    }).saveAsHadoopDataset(jobconf)
+      println(s"tags = ${tags}")
+      rowkey.addImmutable("tags".getBytes(), "20200120".getBytes(), tags.getBytes())
+      (new ImmutableBytesWritable(), rowkey)
+    }) // 数据保存Hbase
+      .saveAsHadoopDataset(jobConf)
   }
 
-  private def Hbase(spark: SparkSession): Configuration = {
-    // 获取Hbase连接
-    val config: Configuration = spark.sparkContext.hadoopConfiguration
-    config.set("hbase.zookeeper.quorum", "qianfeng01:2181,qianfeng02:2181,qianfeng03:2181")
-    val connection: Connection = ConnectionFactory.createConnection(config)
-    val admin: Admin = connection.getAdmin
-    if (!admin.tableExists(TableName.valueOf("tags"))) {
-      val tableDescriptor = new HTableDescriptor(TableName.valueOf("tags"))
-      val cf = new HColumnDescriptor("tags")
-      tableDescriptor.addFamily(cf)
-      admin.createTable(tableDescriptor)
-      connection.close()
-    }
-    config
-  }
 }
+
