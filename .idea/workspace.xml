@@ -1487,13 +1487,27 @@
       <change afterPath="$PROJECT_DIR$/../java Project archive/sz2003_mapreduce/sz2003_mapreduce/target/classes/com/qf/mr/wordcount/runmode/localFromHdfs/WordCountReducer.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../java Project archive/sz2003_mapreduce/v.txt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../sbtdemo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/hm/util/JedisConn.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/GeoTest.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TupleDemo.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/getBusiness.scala" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../sqoop/sqoop" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../yingxincui.github.io" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/hm/bd/TagContext.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/hm/bd/TagContext.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/com/hm/bd/TagsAd.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/hm/bd/TagsAd.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/com/hm/util/MapUtil.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/hm/util/MapUtil.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Test1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/getDemo.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/getDemo.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Test2.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Test2.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hm/bd/TagContext$$anonfun$main$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hm/bd/TagContext$$anonfun$main$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hm/bd/TagContext$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hm/bd/TagContext$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hm/bd/TagsAd$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hm/bd/TagsAd$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hm/util/MapUtil$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hm/util/MapUtil$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Test$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Test1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Test1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Test2$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Test2$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Test2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Test2.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -1507,8 +1521,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Package Object" />
-        <option value="Scala Object" />
         <option value="Class" />
+        <option value="Scala Object" />
       </list>
     </option>
   </component>
@@ -1552,42 +1566,10 @@
       <recent name="com.hm.bd" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Device">
-    <configuration name="DIstrict" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.hm.bd.DIstrict" />
+  <component name="RunManager" selected="Application.TupleDemo">
+    <configuration name="GeoTest" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="GeoTest" />
       <module name="sparkad" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hm.bd.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Device" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.hm.bd.Device" />
-      <module name="sparkad" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hm.bd.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Log2Parquet" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.hm.bd.Log2Parquet" />
-      <module name="sparkad" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hm.bd.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -1597,7 +1579,7 @@
       <module name="sparkad" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hm.bd.*" />
+          <option name="PATTERN" value="com.hm.util.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -1605,8 +1587,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test1" />
+    <configuration name="Test2" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="Test2" />
+      <module name="sparkad" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TupleDemo" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="TupleDemo" />
+      <module name="sparkad" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="getBusiness" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="getBusiness" />
       <module name="sparkad" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -1614,11 +1610,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TupleDemo" />
+        <item itemvalue="Application.GeoTest" />
+        <item itemvalue="Application.getBusiness" />
+        <item itemvalue="Application.Test2" />
         <item itemvalue="Application.ProCityCount" />
-        <item itemvalue="Application.Log2Parquet" />
-        <item itemvalue="Application.DIstrict" />
-        <item itemvalue="Application.Device" />
-        <item itemvalue="Application.Test1" />
       </list>
     </recent_temporary>
   </component>

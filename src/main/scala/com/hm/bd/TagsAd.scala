@@ -1,7 +1,9 @@
 package com.hm.bd
 
-import com.hm.util.MapUtil
+import ch.hsr.geohash.GeoHash
+import com.hm.util.{JedisConn, MapUtil}
 import org.apache.spark.sql.Row
+import redis.clients.jedis.Jedis
 
 import scala.collection.mutable.ListBuffer
 
@@ -74,8 +76,6 @@ object TagsAd {
     arr.filter((x: String) => x.length >= 3 && x.length <= 8).foreach((t: String) => {
       list.append(("K" + t, 1))
     })
-
-
     //6)	地域标签（省标签格式：ZPxxx->1, 地市标签格式: ZCxxx->1）xxx 为省或市名称
     val provincename: String = row.getAs[String]("provincename")
     val cityname: String = row.getAs[String]("cityname")
@@ -86,10 +86,24 @@ object TagsAd {
     //7)	商圈标签
     val long: Double = row.getAs[Double]("long")
     val lat: Double = row.getAs[Double]("lat")
-    val business: String = MapUtil.getBusinessFromMap(long, lat)
-    business.split(",").foreach((t: String) => {
-      list.append((t, 1))
-    })
+
+
+    val geoHash: String = GeoHash.geoHashStringWithCharacterPrecision(lat, long, 6)
+   //获取jedis连接
+    val jedis: Jedis = JedisConn.getJedis
+    if(jedis.get(geoHash).isEmpty){
+      val business: String = MapUtil.getBusinessFromMap(long, lat)
+      //如果数据库没有,存到数据库
+      jedis.set(geoHash,business)
+      business.split(",").filter(_.length>1).foreach((t: String) => {
+        list.append((t, 1))
+      })
+    }else{
+      jedis.get(geoHash).split(",").filter(_.length>1)foreach((t: String) =>{
+        list.append((t,1))
+      })
+    }
+
     list.toList
   }
 }
