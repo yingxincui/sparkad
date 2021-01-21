@@ -28,7 +28,7 @@ object TagsAd {
     //list追加商圈标签
     businessLabel(list, jedis, row)
     val list1: List[(String, Int)] = list.toList
-    list1
+    list1.toList
   }
 
   private def adTypeLabel(row: Row, list: ListBuffer[(String, Int)]): Unit = {

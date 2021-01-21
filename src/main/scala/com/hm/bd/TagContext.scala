@@ -45,6 +45,7 @@ object TagContext {
       val tags: String = t._2.mkString(",")
       println(s"tags = ${tags}")
       rowkey.addImmutable("tags".getBytes(), "20200120".getBytes(), tags.getBytes())
+      //创建一个零大小的序列。
       (new ImmutableBytesWritable(), rowkey)
     }) // 数据保存Hbase
       .saveAsHadoopDataset(jobConf)

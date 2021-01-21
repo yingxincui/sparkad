@@ -1487,20 +1487,21 @@
       <change afterPath="$PROJECT_DIR$/../java Project archive/sz2003_mapreduce/sz2003_mapreduce/target/classes/com/qf/mr/wordcount/runmode/localFromHdfs/WordCountReducer.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../java Project archive/sz2003_mapreduce/v.txt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../sbtdemo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/toHbase.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/hm/bd/TagContextV2.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/GraphTest.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/GraphTest2.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/RowkeyTest.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/readHbase.scala" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../sqoop/sqoop" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../yingxincui.github.io" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/com/hm/bd/TagContext.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/hm/bd/TagContext.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/hm/bd/TagUtil.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/hm/bd/TagUtil.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/com/hm/bd/TagsAd.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/hm/bd/TagsAd.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hm/bd/TagContext$$anonfun$main$1$$anonfun$apply$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hm/bd/TagContext$$anonfun$main$1$$anonfun$apply$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hm/bd/TagContext$$anonfun$main$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hm/bd/TagContext$$anonfun$main$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hm/bd/TagContext$$anonfun$main$2$$anonfun$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hm/bd/TagContext$$anonfun$main$2$$anonfun$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hm/bd/TagContext$$anonfun$main$2$$anonfun$apply$2$$anonfun$apply$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hm/bd/TagContext$$anonfun$main$2$$anonfun$apply$2$$anonfun$apply$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hm/bd/TagContext$$anonfun$main$2$$anonfun$apply$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hm/bd/TagContext$$anonfun$main$2$$anonfun$apply$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hm/bd/TagContext$$anonfun$main$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hm/bd/TagContext$$anonfun$main$2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/hm/bd/TagContext$$anonfun$main$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hm/bd/TagContext$$anonfun$main$3.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/hm/bd/TagContext$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hm/bd/TagContext$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hm/bd/TagUtil$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hm/bd/TagUtil$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hm/bd/TagUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hm/bd/TagUtil.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/hm/bd/TagsAd$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hm/bd/TagsAd$.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -1557,39 +1558,34 @@
       <recent name="D:\git\sparkad\data" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
       <recent name="com.hm.bd" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.toHbase">
-    <configuration name="GeoTest" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="GeoTest" />
+  <component name="RunManager" selected="Application.readHbase">
+    <configuration name="GraphTest" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="GraphTest" />
       <module name="sparkad" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TagContext" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.hm.bd.TagContext" />
-      <module name="sparkad" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hm.bd.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TupleDemo" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="TupleDemo" />
+    <configuration name="GraphTest2" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="GraphTest2" />
       <module name="sparkad" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="getBusiness" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="getBusiness" />
+    <configuration name="RowkeyTest" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="RowkeyTest" />
+      <module name="sparkad" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="readHbase" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="readHbase" />
       <module name="sparkad" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -1604,11 +1600,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.readHbase" />
+        <item itemvalue="Application.RowkeyTest" />
+        <item itemvalue="Application.GraphTest2" />
+        <item itemvalue="Application.GraphTest" />
         <item itemvalue="Application.toHbase" />
-        <item itemvalue="Application.TagContext" />
-        <item itemvalue="Application.TupleDemo" />
-        <item itemvalue="Application.GeoTest" />
-        <item itemvalue="Application.getBusiness" />
       </list>
     </recent_temporary>
   </component>
