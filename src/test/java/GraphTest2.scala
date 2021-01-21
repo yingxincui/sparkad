@@ -26,6 +26,8 @@ object GraphTest2 {
     val defaultUser: (String, String) = ("John Doe", "Missing")
     // 构建图
     val graph: Graph[(String, String), String] = Graph(users, relationships, defaultUser)
+    //计算每个顶点的连接组件成员资格，并返回一个顶点值包含包含该顶点的连接组件中最低顶点id的图。
+    val vertices: VertexRDD[VertexId] = graph.connectedComponents().vertices
 
     // Count all users which are postdocs
     val count: VertexId = graph.vertices.filter { case (id, (name, pos)) => pos == "postdoc" }.count

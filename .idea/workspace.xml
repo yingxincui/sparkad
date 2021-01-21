@@ -1487,22 +1487,10 @@
       <change afterPath="$PROJECT_DIR$/../java Project archive/sz2003_mapreduce/sz2003_mapreduce/target/classes/com/qf/mr/wordcount/runmode/localFromHdfs/WordCountReducer.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../java Project archive/sz2003_mapreduce/v.txt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../sbtdemo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/hm/bd/TagContextV2.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/GraphTest.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/GraphTest2.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/RowkeyTest.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/readHbase.scala" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../sqoop/sqoop" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../yingxincui.github.io" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/hm/bd/TagContext.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/hm/bd/TagContext.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/hm/bd/TagUtil.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/hm/bd/TagUtil.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/hm/bd/TagsAd.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/hm/bd/TagsAd.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hm/bd/TagContext$$anonfun$main$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hm/bd/TagContext$$anonfun$main$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hm/bd/TagContext$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hm/bd/TagContext$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hm/bd/TagUtil$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hm/bd/TagUtil$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hm/bd/TagUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hm/bd/TagUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hm/bd/TagsAd$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hm/bd/TagsAd$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/GraphTest2.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GraphTest2.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
