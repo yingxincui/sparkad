@@ -1487,10 +1487,14 @@
       <change afterPath="$PROJECT_DIR$/../java Project archive/sz2003_mapreduce/sz2003_mapreduce/target/classes/com/qf/mr/wordcount/runmode/localFromHdfs/WordCountReducer.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../java Project archive/sz2003_mapreduce/v.txt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../sbtdemo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/hm/es/Save2ES.scala" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../sqoop/sqoop" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../yingxincui.github.io" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/GraphTest2.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GraphTest2.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/GraphTest2$$anonfun$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/GraphTest2$$anonfun$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/GraphTest2$$anonfun$main$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/GraphTest2$$anonfun$main$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/GraphTest2$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/GraphTest2$.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -1550,7 +1554,7 @@
       <recent name="com.hm.bd" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.readHbase">
+  <component name="RunManager" selected="Application.Test">
     <configuration name="GraphTest" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="GraphTest" />
       <module name="sparkad" />
@@ -1572,6 +1576,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.hm.es.Save2ES" />
+      <module name="sparkad" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hm.es.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="readHbase" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="readHbase" />
       <module name="sparkad" />
@@ -1579,20 +1596,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="toHbase" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="toHbase" />
-      <module name="sparkad" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.readHbase" />
         <item itemvalue="Application.RowkeyTest" />
         <item itemvalue="Application.GraphTest2" />
         <item itemvalue="Application.GraphTest" />
-        <item itemvalue="Application.toHbase" />
       </list>
     </recent_temporary>
   </component>
